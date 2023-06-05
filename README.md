@@ -4,7 +4,7 @@ This repository contains a collection of cheat sheets for various subjects that 
 
 | S.No | Subject                          | Link                                        |
 | ---- | -------------------------------- | ------------------------------------------- |
-| 1    | Jupyter Notebook  & Conda        | [Jupyter Notebook Cheat Sheet](./JupyterConda.md) |
+| 1    | Jupyter Notebook  & Conda        | [Jupyter Notebook Cheat Sheet](./JupyterNotebook.md) |
 
 
 Feel free to contribute to this repository by adding more cheat sheets or improving the existing ones.
