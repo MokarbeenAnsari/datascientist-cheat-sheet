@@ -11,7 +11,7 @@ This cheat sheet covers some basic operations in Conda, a package and environmen
 6. [How to start Jupyter Notebook?](#how-to-start-jupyter-notebook)
 7. [How to check if Jupyter Notebook is installed?](#how-to-check-if-jupyter-notebook-is-installed)
 8. [How to install Jupyter Notebook?](#how-to-install-jupyter-notebook)
-9. [How to delete/remove Conda environment?](#how-to-delete-remove-conda-environment)
+9. [How to remove Conda environment?](#how-to-remove-conda-environment)
 
 ### How to see the version of Conda?
 
@@ -121,7 +121,7 @@ After installing, you can launch Jupyter Notebook by typing:
 
 This command starts the Jupyter Notebook server and should automatically open the server's dashboard in your default web browser.
 
-### How to delete/remove Conda environment?
+### How to remove Conda environment?
 
 To delete a Conda environment, use the `conda remove` command followed by the `--name` flag and the name of the environment you want to remove. Here's an example:
 
