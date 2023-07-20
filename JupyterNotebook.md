@@ -8,10 +8,12 @@ This cheat sheet covers some basic operations in Conda, a package and environmen
 3. [How to list all Conda environments?](#how-to-list-all-conda-environments)
 4. [How to activate a Conda environment?](#how-to-activate-a-conda-environment)
 5. [How to add a Conda environment to Jupyter Notebook?](#how-to-add-a-conda-environment-to-jupyter-notebook)
-6. [How to start Jupyter Notebook?](#how-to-start-jupyter-notebook)
-7. [How to check if Jupyter Notebook is installed?](#how-to-check-if-jupyter-notebook-is-installed)
-8. [How to install Jupyter Notebook?](#how-to-install-jupyter-notebook)
-9. [How to remove Conda environment?](#how-to-remove-conda-environment)
+6. [How to see the list of Conda environments added in Jupyter Notebook?](#how-to-see-the-list-of-conda-environments-added-in-jupyter-notebook)
+7. [How to remove a Conda environment from Jupyter Notebook?](#how-to-remove-a-conda-environment-from-jupyter-notebook)
+8. [How to start Jupyter Notebook?](#how-to-start-jupyter-notebook)
+9. [How to check if Jupyter Notebook is installed?](#how-to-check-if-jupyter-notebook-is-installed)
+10. [How to install Jupyter Notebook?](#how-to-install-jupyter-notebook)
+11. [How to remove Conda environment?](#how-to-remove-conda-environment)
 
 ### How to see the version of Conda?
 
@@ -66,6 +68,25 @@ To use a specific Conda environment in Jupyter Notebook, you need to install Jup
     ```
 
 4. You can now start Jupyter Notebook. Once it's open, you can select the new kernel from the 'Kernel' menu.
+
+### How to see the list of Conda environments added in Jupyter Notebook?
+
+To see the list of Conda environments added to Jupyter Notebook as kernels, you can use the `jupyter kernelspec list` command in the terminal. Here's the command:
+
+   ```bash
+   jupyter kernelspec list
+   ```
+
+This command lists all available Jupyter kernels.
+
+### How to remove a Conda environment from Jupyter Notebook?
+
+To remove a Conda environment that you've added to Jupyter Notebook, you'll need to uninstall the corresponding kernel. You can do this using the `jupyter kernelspec uninstall` command followed by the name of the environment. Here's an example:
+
+```bash
+jupyter kernelspec uninstall myenv
+```
+This command will uninstall the `myenv` kernel. After running this command, you'll no longer be able to use the `myenv` environment in Jupyter Notebook, but the Conda environment itself will still exist unless you remove it using the Conda remove commands provided in the earlier section.
 
 ### How to start Jupyter Notebook?
 
