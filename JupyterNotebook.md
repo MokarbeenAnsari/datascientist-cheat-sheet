@@ -14,6 +14,7 @@ This cheat sheet covers some basic operations in Conda, a package and environmen
 9. [How to check if Jupyter Notebook is installed?](#how-to-check-if-jupyter-notebook-is-installed)
 10. [How to install Jupyter Notebook?](#how-to-install-jupyter-notebook)
 11. [How to remove Conda environment?](#how-to-remove-conda-environment)
+12. [How to clone Conda environment?](#how-to-clone-conda-environment)
 
 ### How to see the version of Conda?
 
