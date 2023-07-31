@@ -156,3 +156,7 @@ Alternatively, you can use the conda env remove command followed by the --name f
     conda env remove --name myenv
     
 This command will also remove the environment named myenv, including its packages.
+
+### How to clone Conda environment?
+Need to update
+
